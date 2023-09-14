@@ -44,4 +44,8 @@ This project is licensed under the MIT License.
 - Streamlit for streamlining the deployment process.
 
 
+## Inspiration
+
+This project was inspired by the [Custom Question Answering Application](https://github.com/avikumart/Custom-question-answering-application.git) by [avikumart](https://github.com/avikumart). We drew inspiration from their work and adapted it to create DataWhisperer.
+
 

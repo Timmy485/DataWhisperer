@@ -21,22 +21,14 @@ DataWhisperer is a custom Q&A and chatbot application that leverages the power o
 
    ```shell
    git clone https://github.com/yourusername/DataWhisperer.git
-
-
 2. Install the required dependencies:
 
    ```shell
    pip install -r requirements.txt
-
-
 3. Run the app:
 
    ```shell
    streamlit run app.py
-
-
-
-
 ## Usage
 
 Customize `app.py` to create your own Q&A application tailored to your data and requirements. Add your data sources, fine-tune the chatbot, and deploy on Streamlit Cloud for user interaction.

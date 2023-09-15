@@ -1,6 +1,6 @@
 # DataWhisperer
 
-DataWhisperer is a custom Q&A and chatbot application that leverages the power of LangChain to provide specific and precise answers based on your data sources.
+DataWhisperer is a custom Q&A and chatbot application that leverages the power of LangChain and PaLM API to provide specific and precise answers based on your data sources.
 
 ## Features
 

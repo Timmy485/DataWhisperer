@@ -1,3 +1,6 @@
 streamlit
-pinecone-client
 langchain
+"unstructured[all-docs]"
+chromadb
+pypdf
+docx2txt

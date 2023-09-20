@@ -1,6 +1,6 @@
 streamlit
 langchain
-"unstructured[all-docs]"
+unstructured[all-docs]
 chromadb
 pypdf
 docx2txt

@@ -115,6 +115,7 @@ def retrieve_and_answer_question(prompt):
         # Using q&a chain to get the answer for our query
         chain = load_qa_chain(llm, chain_type="stuff")
         answer = chain.run(input_documents=matching_docs, question=prompt)
+        st.write('Query Result:')
         st.write(answer)
 
 
@@ -135,10 +136,10 @@ if selected_feature == "Upload & Analyze Custom Document":
         db = store_embeddings_in_chromadb(docs)
 
         
-
+        #input prompt
         prompt = st.chat_input("Query your file")
 
-        st.write('Query Result:')
+        #display results
         retrieve_and_answer_question(prompt)
 
         

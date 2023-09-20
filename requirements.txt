@@ -4,3 +4,4 @@ unstructured[all-docs]
 chromadb
 pypdf
 docx2txt
+google-generativeai
